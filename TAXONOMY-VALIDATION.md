@@ -53,6 +53,17 @@ The following mechanism descriptions are derived from **public abstracts** and o
 | [AHaBench](https://aclanthology.org/2026.findings-eacl.4/) | Diagnoses affective hallucination and tests DPO safety | Text-only Interaction | Emotional enmeshment, presence illusion, overdependence | Adjacent Safety |
 | [EIBench](https://aclanthology.org/2026.findings-emnlp.789/) | Simulator-based multi-turn emotion management and turn-credit RL | Text-only Interaction | Per-turn simulated state feedback | Adjacent Evaluation |
 
+### Additional publisher-verified classification checks (2026-10-29)
+
+| Work | Primary mechanism | Secondary link | Verification boundary |
+|---|---|---|---|
+| [ERV (AAAI 2026)](https://ojs.aaai.org/index.php/AAAI/article/view/37184) | **Learning:** explanation reward trains emotion--rationale coherence | Evaluation of explanatory coherence | Predicted-label agreement is not by itself modality-grounded faithfulness |
+| [CAIR (ACL Findings 2026)](https://aclanthology.org/2026.findings-acl.1263/) | **Learning:** causal-mediation reward and adaptive RL | Cognitive appraisal and interventional evaluation | Rationale predictive contribution does not prove psychological causality |
+| [EMO-CoT (IEEE T-AFFC 2026)](https://doi.org/10.1109/TAFFC.2026.3713090) | **Learning:** SCoT-DPO preference optimization | Multi-granular evidence architecture; EMER-CoT dataset; GEM evaluator | Multi-part paper, counted once; graph-based evidence alignment is not actual model-causal attribution |
+| [EMARF (Pattern Recognition 2026)](https://www.sciencedirect.com/science/article/pii/S0031320326003316) | **Learning:** lightweight LoRA-based reasoning adaptation | Runtime consistency-gated fast/stepwise inference | Its adaptive inference behavior is not a training-free method |
+
+These cases support a method-level distinction among **(i) label correctness, (ii) rationale--emotion coherence, (iii) observational cue grounding, and (iv) intervention-based rationale contribution**. They should be compared using matched inputs, annotation targets and judge protocols. No single metric proves all four.
+
 ## 3. Research questions the survey should actually answer
 
 **RQ1 — Affective evidence grounding.** Under modality conflict, does the answer rely on face, voice, linguistic semantics or scene context? Does the method validate the evidence it mentions?
