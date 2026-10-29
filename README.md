@@ -6,7 +6,7 @@ A curated bibliography of **affective intelligence in multimodal large language 
 
 **Repository resources:** [2026 research watchlist](2026-RESEARCH-WATCHLIST.md) · [Literature curation protocol](CURATION.md)
 
-**Latest literature expansion (2026-10-29):** added 18 verified records from EMNLP/Findings, ACL, ICLR, EACL and arXiv, including [SoVTR](https://aclanthology.org/2026.findings-emnlp.1807/), [UniMER](https://aclanthology.org/2026.emnlp-main.1611/), [TMPO](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89ab43b626b480347dbaccda7be8aedb-Abstract-Conference.html), and [HMER](https://arxiv.org/abs/2609.11154). `New-verified` means bibliographic identity and public abstract checked; it does **not** mean full-text review.
+**Latest literature expansion (2026-10-29):** added 20 verified records from EMNLP/Findings, ACL, ICLR, EACL and arXiv, including [SoVTR](https://aclanthology.org/2026.findings-emnlp.1807/), [UniMER](https://aclanthology.org/2026.emnlp-main.1611/), [TMPO](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89ab43b626b480347dbaccda7be8aedb-Abstract-Conference.html), and [HMER](https://arxiv.org/abs/2609.11154). `New-verified` means bibliographic identity and public abstract checked; it does **not** mean full-text review.
 
 The collection spans affective evidence modeling, affective training and optimization, inference-time emotion reasoning, empathetic interaction, benchmarks, and adjacent research. The taxonomy is **provisional** and will be refined paper by paper.
 
@@ -45,9 +45,13 @@ Selected recent additions beyond the seed notes:
 
 ## Affective Evidence Modeling
 
+- **2026 · arXiv · E2-LLM** — E^2-LLM: Bridging Neural Signals and Interpretable Affective Analysis. [arXiv](https://arxiv.org/abs/2601.07877). `New-verified`
+
+- **2026 · arXiv · Qwen3-Omni AH Detection** — Nuanced Emotion Recognition Based on a Segment-based MLLM Framework Leveraging Qwen3-Omni for AH Detection. [arXiv](https://arxiv.org/abs/2603.13406) · [GitHub](https://github.com/dlnn123/A-H-Detection-with-Qwen-Omni). `New-verified`
+
 - **2026 · EMNLP · UniMER** — UniMER: Multilingual Multimodal Emotion Recognition with Prototype-Guided Attention Pooling. [Official](https://aclanthology.org/2026.emnlp-main.1611/). `New-verified`
 
-- **2026 · arXiv · FAB-G** — Attribute-Grounded Selective Reasoning for Artwork Emotion Understanding with Multimodal Large Language Models. [Official](https://arxiv.org/abs/2605.15755). `New-verified`
+- **2026 · arXiv · FAB-G** — Attribute-Grounded Selective Reasoning for Artwork Emotion Understanding with Multimodal Large Language Models. [arXiv](https://arxiv.org/abs/2605.15755). `New-verified`
 
 - **2026 · EMNLP · Emotion-Control Circuit** — Tracing a Sparse Emotion-Control Circuit in LLM-Based Text-to-Speech. [Official](https://aclanthology.org/2026.emnlp-main.378/) · [arXiv](https://arxiv.org/abs/2610.05080). `New-verified`
 
@@ -125,7 +129,7 @@ Selected recent additions beyond the seed notes:
 
 ## Affective Reasoning, Inference and Interaction
 
-- **2026 · arXiv · HMER** — Multi-Faceted Evaluation and Mitigation of Emotion Hallucinations in MLLMs. [Official](https://arxiv.org/abs/2609.11154). `New-verified`
+- **2026 · arXiv · HMER** — Multi-Faceted Evaluation and Mitigation of Emotion Hallucinations in MLLMs. [arXiv](https://arxiv.org/abs/2609.11154). `New-verified`
 
 - **2026 · EMNLP · TRACE-Streaming** — Emotion Understanding in Streaming Video with Trajectory-Aware Reliability. [Official](https://aclanthology.org/2026.emnlp-main.554/). `New-verified`
 
@@ -185,9 +189,9 @@ Selected recent additions beyond the seed notes:
 
 - **2026 · arXiv · MER 2026** — MER 2026: From Discriminative Emotion Recognition to Generative Emotion Understanding. [Official](https://zeroqiaoba.github.io/MER-Challenge/) · [arXiv](https://arxiv.org/abs/2604.19417). `Seed`
 
-- **2026 · ICLR · MME-Emotion** — MME-Emotion: A Holistic Evaluation Benchmark for Emotional Intelligence in Multimodal Large Language Models. [Official](https://mme-emotion.github.io/) · [arXiv](https://arxiv.org/abs/2508.09210) · [GitHub](https://github.com/QwenAudio/MME-Emotion) · [Hugging Face](https://huggingface.co/datasets/Karl28/MME-Emotion). `Seed`
+- **2026 · ICLR · MME-Emotion** — MME-Emotion: A Holistic Evaluation Benchmark for Emotional Intelligence in Multimodal Large Language Models. [Official](https://proceedings.iclr.cc/paper_files/paper/2026/hash/50d277e84b2bcbaadcd84548a87e8cc4-Abstract-Conference.html) · [arXiv](https://arxiv.org/abs/2508.09210) · [GitHub](https://github.com/QwenAudio/MME-Emotion) · [Hugging Face](https://huggingface.co/datasets/Karl28/MME-Emotion). `Seed`
 
-- **2026 · ICLR · EmotionHallucer** — EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models. [arXiv](https://arxiv.org/abs/2505.11405) · [GitHub](https://github.com/xxtars/EmotionHallucer). `Seed`
+- **2026 · ICLR · EmotionHallucer** — EmotionHallucer: Evaluating Emotion Hallucinations in Multimodal Large Language Models. [Official](https://proceedings.iclr.cc/paper_files/paper/2026/hash/a80546907c520409ce3c0e226c1f7e5f-Abstract-Conference.html) · [arXiv](https://arxiv.org/abs/2505.11405) · [GitHub](https://github.com/xxtars/EmotionHallucer). `Seed`
 
 - **2026 · ICLR · MVEI** — Customizing Visual Emotion Evaluation for MLLMs: An Open-vocabulary, Multifaceted, and Scalable Approach. [arXiv](https://arxiv.org/abs/2509.21950). `Seed`
 
@@ -243,5 +247,5 @@ For each newly added paper, record: **publication status**, date, input/output m
 
 **Recommended comparisons:** (1) feature alignment vs. explicit emotion-grounded evidence; (2) SFT vs. RL vs. training-free adaptation; (3) final-answer rewards vs. evidence/rationale rewards; (4) prompt/agent/memory/retrieval-based inference; (5) expressed vs. perceived vs. evoked emotions and personalization.
 
-**Coverage:** 92 bibliographic entries (including 18 independently identified and official/arXiv-verified papers in this update; earlier `New` records remain). Some benchmark entries are explicit cross-references and must not be counted as separate unique papers. Snapshot: 2026-10-29. Maintainer: Yali Fu.
+**Coverage:** 94 bibliographic entries (including 18 independently identified and official/arXiv-verified papers in this update; earlier `New` records remain). Some benchmark entries are explicit cross-references and must not be counted as separate unique papers. Snapshot: 2026-10-29. Maintainer: Yali Fu.
 
