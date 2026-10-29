@@ -4,7 +4,7 @@ A curated bibliography of **affective intelligence in multimodal large language 
 
 [Survey manuscript repository](https://github.com/jindongli-Ai/2026_Survey_Affective-Intelligence-in-MLLMs)
 
-**Repository resources:** [Canonical papers.csv](papers.csv) · [Taxonomy validation & method matrix](TAXONOMY-VALIDATION.md) · [Benchmark coverage](BENCHMARK-COVERAGE.md) · [2026 research watchlist](2026-RESEARCH-WATCHLIST.md) · [Literature curation protocol](CURATION.md)
+**Repository resources:** [Canonical papers.csv](papers.csv) · [NeurIPS 2026 screening queue](NEURIPS-2026-SCREENING.md) · [Taxonomy validation & method matrix](TAXONOMY-VALIDATION.md) · [Benchmark coverage](BENCHMARK-COVERAGE.md) · [2026 research watchlist](2026-RESEARCH-WATCHLIST.md) · [Literature curation protocol](CURATION.md)
 
 **Latest literature expansion (2026-10-29):** added 20 verified records from EMNLP/Findings, ACL, ICLR, EACL and arXiv, including [SoVTR](https://aclanthology.org/2026.findings-emnlp.1807/), [UniMER](https://aclanthology.org/2026.emnlp-main.1611/), [TMPO](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89ab43b626b480347dbaccda7be8aedb-Abstract-Conference.html), and [HMER](https://arxiv.org/abs/2609.11154). `New-verified` means bibliographic identity and public abstract checked; it does **not** mean full-text review.
 
