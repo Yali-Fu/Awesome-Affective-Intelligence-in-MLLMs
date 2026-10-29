@@ -6,6 +6,8 @@ A curated bibliography of **affective intelligence in multimodal large language 
 
 **Repository resources:** [2026 research watchlist](2026-RESEARCH-WATCHLIST.md) · [Literature curation protocol](CURATION.md)
 
+**Latest literature expansion (2026-10-29):** added 18 verified records from EMNLP/Findings, ACL, ICLR, EACL and arXiv, including [SoVTR](https://aclanthology.org/2026.findings-emnlp.1807/), [UniMER](https://aclanthology.org/2026.emnlp-main.1611/), [TMPO](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89ab43b626b480347dbaccda7be8aedb-Abstract-Conference.html), and [HMER](https://arxiv.org/abs/2609.11154). `New-verified` means bibliographic identity and public abstract checked; it does **not** mean full-text review.
+
 The collection spans affective evidence modeling, affective training and optimization, inference-time emotion reasoning, empathetic interaction, benchmarks, and adjacent research. The taxonomy is **provisional** and will be refined paper by paper.
 
 ## Scope and curation rules
@@ -42,6 +44,12 @@ Selected recent additions beyond the seed notes:
 
 
 ## Affective Evidence Modeling
+
+- **2026 · EMNLP · UniMER** — UniMER: Multilingual Multimodal Emotion Recognition with Prototype-Guided Attention Pooling. [Official](https://aclanthology.org/2026.emnlp-main.1611/). `New-verified`
+
+- **2026 · arXiv · FAB-G** — Attribute-Grounded Selective Reasoning for Artwork Emotion Understanding with Multimodal Large Language Models. [Official](https://arxiv.org/abs/2605.15755). `New-verified`
+
+- **2026 · EMNLP · Emotion-Control Circuit** — Tracing a Sparse Emotion-Control Circuit in LLM-Based Text-to-Speech. [Official](https://aclanthology.org/2026.emnlp-main.378/) · [arXiv](https://arxiv.org/abs/2610.05080). `New-verified`
 
 - **2024 · NeurIPS · Emotion-LLaMA** — Emotion-LLaMA: Multimodal Emotion Recognition and Reasoning with Instruction Tuning. [Official](https://proceedings.neurips.cc/paper_files/paper/2024/hash/c7f43ada17acc234f568dc66da527418-Abstract-Conference.html). `Seed`
 
@@ -83,6 +91,10 @@ Selected recent additions beyond the seed notes:
 
 ## Affective Learning and Optimization
 
+- **2026 · EMNLP Findings · SoVTR** — SoVTR: Set-of-Vision-Text Rewards for Attribute-Grounded Emotion Recognition in VLLMs. [Official](https://aclanthology.org/2026.findings-emnlp.1807/). `New-verified`
+
+- **2026 · ICLR · TMPO** — Unveiling the Cognitive Compass: Theory-of-Mind-Guided Multimodal Emotion Reasoning. [Official](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89ab43b626b480347dbaccda7be8aedb-Abstract-Conference.html) · [arXiv](https://arxiv.org/abs/2602.00971). `New-verified`
+
 - **2025 · arXiv · R1-Omni** — R1-Omni: Explainable Omni-Multimodal Emotion Recognition with Reinforcement Learning. [arXiv](https://arxiv.org/abs/2503.05379). `Seed`
 
 - **2025 · arXiv · AffectGPT-R1** — AffectGPT-R1: Leveraging Reinforcement Learning for Open-Vocabulary Multimodal Emotion Recognition. [arXiv](https://arxiv.org/abs/2508.01318). `Seed`
@@ -112,6 +124,10 @@ Selected recent additions beyond the seed notes:
 - **2026 · Pattern Recognition · EMARF** — Unlocking Explainable and Effective Multimodal Affective Reasoning via Large Language Models. [Official](https://www.sciencedirect.com/science/article/pii/S0031320326003316). `New`
 
 ## Affective Reasoning, Inference and Interaction
+
+- **2026 · arXiv · HMER** — Multi-Faceted Evaluation and Mitigation of Emotion Hallucinations in MLLMs. [Official](https://arxiv.org/abs/2609.11154). `New-verified`
+
+- **2026 · EMNLP · TRACE-Streaming** — Emotion Understanding in Streaming Video with Trajectory-Aware Reliability. [Official](https://aclanthology.org/2026.emnlp-main.554/). `New-verified`
 
 - **2024 · EMNLP · AlignCap** — Aligning Speech Emotion Captioning to Human Preferences. [Official](https://aclanthology.org/2024.emnlp-main.224/) · [arXiv](https://arxiv.org/abs/2410.19134). `Seed`
 
@@ -149,6 +165,16 @@ Selected recent additions beyond the seed notes:
 
 ## Benchmarks, Datasets and Evaluation
 
+- **2026 · ACL · EmoS** — EmoS: A High-Fidelity Multimodal Benchmark for Fine-grained Streaming Emotional Understanding. [Official](https://aclanthology.org/2026.acl-long.1813/) · [GitHub](https://github.com/NLP2CT/EmoS). `New-verified`
+
+- **2026 · EMNLP · MER-Bench** — MER-Bench: Benchmarking Multimodal Emotional Reappraisal for Image-Text Memes. [Official](https://aclanthology.org/2026.emnlp-main.940/). `New-verified`
+
+- **2026 · EMNLP Findings · CREMA-ASIS** — When Vocal Tone and Literal Meaning Diverge: An Acoustic–Semantic Incongruity Study for Large Audio–Language Models. [Official](https://aclanthology.org/2026.findings-emnlp.35/). `New-verified`
+
+- **2026 · EMNLP · SEA-SpeechBench** — SEA-SpeechBench: A Large-Scale Multitask Benchmark for Speech Understanding Across Southeast Asia. [Official](https://aclanthology.org/2026.emnlp-main.1934/). `New-verified`
+
+- **2026 · EMNLP · ToM-Video** — ToM-Video: A Theory-of-Mind Video Benchmark with Spatio-Temporal Grounded Reasoning. [Official](https://aclanthology.org/2026.emnlp-main.302/). `New-verified`
+
 - **2023 · ACM MM · MER 2023** — MER 2023: Multi-label Learning, Modality Robustness, and Semi-Supervised Learning. [Official](https://dl.acm.org/doi/abs/10.1145/3581783.3612836) · [arXiv](https://arxiv.org/abs/2304.08981). `Seed`
 
 - **2024 · ACM Workshop · MER 2024** — MER 2024: Semi-Supervised Learning, Noise Robustness, and Open-Vocabulary Multimodal Emotion Recognition. [Official](https://dl.acm.org/doi/abs/10.1145/3689092.3689959) · [arXiv](https://arxiv.org/abs/2404.17113) · [GitHub](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024). `Seed`
@@ -185,6 +211,18 @@ Selected recent additions beyond the seed notes:
 
 ## Related Surveys and Adjacent Work
 
+- **2026 · EMNLP · EmoDap** — EmoDap: Dual-Agent Prompt Retrieval Framework for Zero-Shot Fine-Grained Emotion Recognition. [Official](https://aclanthology.org/2026.emnlp-main.1167/). `New-verified`
+
+- **2026 · EMNLP Findings · EIBench** — EIBench: A Simulator-Based Benchmark and Turn-Credit RL for Emotion Management. [Official](https://aclanthology.org/2026.findings-emnlp.789/). `New-verified`
+
+- **2026 · EMNLP · EmoLASP** — EmoLASP: Emotion Recognition with Language Models and Answer Set Programming. [Official](https://aclanthology.org/2026.emnlp-main.1769/). `New-verified`
+
+- **2026 · EMNLP Findings · Layer-wise Emotion Probing** — Some Emotions Run Deeper: Layer-wise Probing and Causal Intervention in Large Language Models. [Official](https://aclanthology.org/2026.findings-emnlp.421/). `New-verified`
+
+- **2026 · EMNLP · Sparse Emotion Features** — Why Are Some Emotions Harder for LLMs? Uncovering the Causal Mechanisms of Emotion Inference via Sparse Autoencoders. [Official](https://aclanthology.org/2026.emnlp-main.559/). `New-verified`
+
+- **2026 · EACL Findings · AHaBench** — Being Kind Isn’t Always Being Safe: Diagnosing Affective Hallucination in LLMs. [Official](https://aclanthology.org/2026.findings-eacl.4/) · [GitHub](https://github.com/anonymous9268/AHaBench). `New-verified`
+
 - **2026 · IJCAI · MER+LLMs Survey** — Multimodal Emotion Recognition with Large Language Models. [Official](https://ijcai.org/proceedings/2026/897) · [arXiv](https://arxiv.org/abs/2605.21239). `Seed`
 
 - **2025 · arXiv · MER+Reasoning Survey** — Multimodal Large Language Models Meet Multimodal Emotion Recognition and Reasoning: A Survey. [arXiv](https://arxiv.org/abs/2509.24322). `Seed`
@@ -205,5 +243,5 @@ For each newly added paper, record: **publication status**, date, input/output m
 
 **Recommended comparisons:** (1) feature alignment vs. explicit emotion-grounded evidence; (2) SFT vs. RL vs. training-free adaptation; (3) final-answer rewards vs. evidence/rationale rewards; (4) prompt/agent/memory/retrieval-based inference; (5) expressed vs. perceived vs. evoked emotions and personalization.
 
-**Coverage:** 74 catalog entries (including 18 independently added entries; several benchmark cross-references refer to previously listed papers). Snapshot: 2026-10-29. Maintainer: Yali Fu.
+**Coverage:** 92 bibliographic entries (including 18 independently identified and official/arXiv-verified papers in this update; earlier `New` records remain). Some benchmark entries are explicit cross-references and must not be counted as separate unique papers. Snapshot: 2026-10-29. Maintainer: Yali Fu.
 
