@@ -4,6 +4,8 @@ A curated bibliography of **affective intelligence in multimodal large language 
 
 [Survey manuscript repository](https://github.com/jindongli-Ai/2026_Survey_Affective-Intelligence-in-MLLMs)
 
+**Repository resources:** [2026 research watchlist](2026-RESEARCH-WATCHLIST.md) · [Literature curation protocol](CURATION.md)
+
 The collection spans affective evidence modeling, affective training and optimization, inference-time emotion reasoning, empathetic interaction, benchmarks, and adjacent research. The taxonomy is **provisional** and will be refined paper by paper.
 
 ## Scope and curation rules
