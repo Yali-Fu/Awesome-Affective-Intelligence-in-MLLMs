@@ -111,6 +111,10 @@ Selected recent additions beyond the seed notes:
 
 - **2026 · ACL Findings · CAIR** — CAIR: Causal Adaptive Information-based Reinforcement Learning for Multimodal Emotion Reasoning. [Official](https://aclanthology.org/2026.findings-acl.1263/). `Seed`
 
+- **2026 · AAAI · ERV** — Emotion-Coherent Reasoning for Multimodal LLMs via Emotional Rationale Verifier. [Official](https://ojs.aaai.org/index.php/AAAI/article/view/37184) · [arXiv](https://arxiv.org/abs/2510.23506) · [GitHub](https://github.com/Rhatanii/ERV). `Seed; publisher-verified, primary learning mechanism`
+
+- **2026 · IEEE T-AFFC · EMO-CoT** — Chain-of-Thought Driven Multimodal Emotion Reasoning and Evaluation. [Official](https://doi.org/10.1109/TAFFC.2026.3713090). `Added, publisher-verified` · cue--cause--emotion annotation, SCoT-DPO and graph-based rationale evaluation.
+
 - **2026 · ICML · OPPO** — Omni-Perception Policy Optimization for Multimodal Emotion Reasoning. [Official](https://openreview.net/forum?id=4dwe2wlxx5) · [arXiv](https://arxiv.org/abs/2606.25325) · [GitHub](https://github.com/ZhiyuanHan-Aaron/OPPO) · [Hugging Face](https://huggingface.co/AaronHan/OPPO). `Seed`
 
 - **2026 · arXiv · OmniOPSD** — OmniOPSD: Rationale-Privileged On-Policy Self-Distillation for Affective Computing. [arXiv](https://arxiv.org/abs/2606.15920) · [GitHub](https://github.com/ZebangCheng/OmniOPSD). `Seed`
@@ -144,8 +148,6 @@ Selected recent additions beyond the seed notes:
 - **2025 · ACM MM · Affective-CoT** — Affective-CoT: Decomposing Multimodal Emotion Reasoning through a Hierarchical Cognitive Workflow. [Official](https://dl.acm.org/doi/abs/10.1145/3746027.3762009) · [GitHub](https://github.com/GPNU-AIoT/Affective-CoT). `Seed`
 
 - **2025 · EMNLP Findings · FIRES** — Flexible Thinking for Multimodal Emotional Support Conversation via Reinforcement Learning. [Official](https://aclanthology.org/2025.findings-emnlp.70/). `Seed`
-
-- **2026 · AAAI · ERV** — Emotion-Coherent Reasoning for Multimodal LLMs via Emotional Rationale Verifier. [Official](https://ojs.aaai.org/index.php/AAAI/article/view/37184) · [arXiv](https://arxiv.org/abs/2510.23506) · [GitHub](https://github.com/Rhatanii/ERV). `Seed`
 
 - **2026 · ICMR · CERA** — CERA: Conflict-Explicit Reflective Agent for Multimodal Emotion Reasoning. [Official](https://dl.acm.org/doi/abs/10.1145/3805622.3810634). `Seed`
 
