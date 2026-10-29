@@ -28,6 +28,36 @@ Updated: **2026-10-29** · Curated for research planning by **Yali Fu**.
 | 2026 Pattern Recognition | [EMARF](https://www.sciencedirect.com/science/article/pii/S0031320326003316) | Combines MLLM extraction, consistency-guided reasoning and LoRA |
 | 2026 Applied Sciences (survey) | [Towards Unified Affective AI](https://www.mdpi.com/2076-3417/16/18/9333) | Broad emotion recognition/generation/control survey; important for positioning |
 
+## Second verification wave: official EMNLP, ACL, ICLR and recent arXiv
+
+These papers were missing from the first bibliographic pass. Their identity, venue/preprint status and main claim have been checked against their official abstract or arXiv record. **Full-paper reading is pending.**
+
+| Paper | Status | Main mechanism | Screening note |
+|---|---|---|---|
+| [UniMER](https://aclanthology.org/2026.emnlp-main.1611/) | EMNLP 2026 | Prototype-guided attention, language-interface fusion, LoRA | Multilingual affect recognition; class imbalance |
+| [SoVTR](https://aclanthology.org/2026.findings-emnlp.1807/) | EMNLP Findings 2026 | Face/body/context grounded reward + GRPO | Distinguish rationale faithfulness from classification gains |
+| [TMPO / HitEmotion](https://proceedings.iclr.cc/paper_files/paper/2026/hash/89ab43b626b480347dbaccda7be8aedb-Abstract-Conference.html) | ICLR 2026 | Theory-of-Mind process-level RL | Appraisal and intermediate mental-state supervision |
+| [HMER / EHR](https://arxiv.org/abs/2609.11154) | Sep 2026 arXiv | Emotion hallucination facets, dual memory, logit rectification | Training-free correction; test claim verification |
+| [TRACE-Streaming](https://aclanthology.org/2026.emnlp-main.554/) | EMNLP 2026 | Uncertainty-aware contextual reasoning on streaming audiovisual cues | Selective reasoning under latency constraints |
+| [Emotion-Control Circuit](https://aclanthology.org/2026.emnlp-main.378/) | EMNLP 2026 | Activation patching in LLM-based emotional TTS | Mechanistic link between emotion controls and speech |
+| [FAB-G](https://arxiv.org/abs/2605.15755) | May 2026 arXiv | Attribute-relevance filtering before affect inference | Human-aligned evidence selection for evoked emotion |
+| [E2-LLM](https://arxiv.org/abs/2601.07877) | Jan 2026 arXiv | EEG projection, multimodal alignment, instruction tuning | Physiological modality beyond audio/video/text |
+| [EmoS](https://aclanthology.org/2026.acl-long.1813/) | ACL 2026 | Dynamic streaming monologues with manual emotion labels | Emotion change over time |
+| [MER-Bench](https://aclanthology.org/2026.emnlp-main.940/) | EMNLP 2026 | Affective image-text editing/reappraisal benchmark | Generation differs from recognition |
+| [CREMA-ASIS](https://aclanthology.org/2026.findings-emnlp.35/) | EMNLP Findings 2026 | Acoustic emotion vs semantic sentiment incongruity | Inspect language/audio dominance |
+| [SEA-SpeechBench](https://aclanthology.org/2026.emnlp-main.1934/) | EMNLP 2026 | Multilingual paralinguistic speech benchmark | **Adjacent**, not an emotion-only benchmark |
+| [ToM-Video](https://aclanthology.org/2026.emnlp-main.302/) | EMNLP 2026 | Video Theory-of-Mind benchmark and INSPIRE post-training | **Adjacent** social reasoning with emotion component |
+| [AHaBench](https://aclanthology.org/2026.findings-eacl.4/) | EACL Findings 2026 | Affective hallucination risk, DPO safety | **Text-only adjacent**; important safety distinction |
+| [EIBench](https://aclanthology.org/2026.findings-emnlp.789/) | EMNLP Findings 2026 | Multi-turn emotional-state simulator and GRPO | **Text-only adjacent** interaction outcome measure |
+| [EmoDap](https://aclanthology.org/2026.emnlp-main.1167/) | EMNLP 2026 | Dual-agent retrieval optimized with GRPO | **Text-oriented adjacent**; do not assume native multimodal input |
+
+### Important naming and taxonomy warnings
+
+- **TRACE-Streaming** (EMNLP 2026) and **TRACE cognitive tracing** (Oct 2026 arXiv) are distinct works.
+- **EmotionHallucer** measures a model's emotion-related hallucinations; **HMER/EHR** introduces facet-based evaluation *and* an inference-time mitigation framework. They are distinct but relevant for comparison.
+- **Emotion generation** (audiovisual/speech outputs), **emotional response** (social pragmatics), and **emotion recognition** should have different evaluation columns.
+- Physiological or EEG emotion recognition without an LLM should not silently become an MLLM method.
+
 ## Survey questions prompted by these papers
 
 1. **Affective grounding:** Do improvements originate from emotion-specific representations, better visual/audio evidence retrieval, or label-prior exploitation?
