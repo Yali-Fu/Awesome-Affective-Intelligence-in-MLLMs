@@ -141,7 +141,7 @@ Selected recent additions beyond the seed notes:
 
 - **2026 · arXiv · CASE** — CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models. [arXiv](https://arxiv.org/abs/2610.32481). `New`
 
-- **2026 · arXiv · EchoChat** — EchoChat: Structured Cognitive Reasoning in Empathetic Spoken Dialogue. [arXiv](https://arxiv.org/abs/2610.04826) · [GitHub](https://github.com/dingdongwang/EchoChat). `New`
+- **2026 · NeurIPS · EchoChat / EmpathyChat** — EchoChat: Structured Cognitive Reasoning in Empathetic Spoken Dialogue. [NeurIPS 2026 paper list](https://neurips.cc/Downloads/2026) · [arXiv](https://arxiv.org/abs/2610.04826) · [GitHub](https://github.com/dingdongwang/EchoChat). `New` · *The NeurIPS index currently uses the title **EmpathyChat**; the authors' homepage and arXiv use **EchoChat**. Treated as one work pending final proceedings metadata.*
 
 - **2026 · arXiv · LoopSLM** — Thinking in Depth, Speaking Directly: Recurrent Latent Reasoning for Paralinguistically Grounded Spoken Dialogue. [arXiv](https://arxiv.org/abs/2609.37818). `New`
 
